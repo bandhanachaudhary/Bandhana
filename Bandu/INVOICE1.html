@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg1 {
+            /* background-color: yellow;
+        height: 20px;
+        width: 20px;*/
+        }
+
+        .bg2 {
+            /*  background-color: yellow;*/
+            /* height: 20px;
+            width: 20px;*/
+            position: relative;
+            left: 50%;
+        }
+
+        .bg5 {
+            background-color: yellow;
+            height: 20px;
+            width: 20px;
+        }
+
+        .img source {
+            height: 10%;
+            width: 10%;
+            text-align: center;
+        }
+
+        .resized-table {
+            widht: 100%;
+            height: 300px;
+
+        }
+
+        .resized-table th {
+            border-collapse: collapse;
+            padding: 1px;
+        }
+
+        .resized-table td {
+            padding: 30px;
+            vertical-align: top;
+        }
+
+        .p {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+
+    <div class="img source">
+        <img src="logo.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 bg1"></div>
+                <div class="col-lg-5 bg2">INVOICE</div>
+                <div class="col-lg-5 bg3"></div>
+            </div>
+        </div>
+    </div>
+    <h4>Invoice to:</h4>
+    <pre><b>Name</b>: Mandip Sir                                                                                                    <b>  Invoice no.34</b></pre>
+    <pre><b>Address</b>: Kathmandu                                                                                                   <b>Date</b>:15/05/2024 </pre>
+    <br>
+    <table class="resized-table" border="1" cellspacing="0" cellpadding="10" width="70%" height="60%" align="center">
+        <tr style="border:transparent" bgcolor="darkblue">
+            <th>SL.</th>
+            <th>Item Description</th>
+            <th>Price</th>
+        </tr>
+        <tr style="border:transparent" align="center">
+            <td>1.</td>
+            <td>Advanced Payment by DMT</td>
+            <td>50,000 NPR</td>
+        </tr>
+    </table>
+    <div class="container">
+    <div class="d-flex justify-content-between">
+        <div>
+            <p class="m-0">Thank you for your business</p>
+        </div>
+        <div>
+            <p class="m-0">Sub Total:50,000NPR</p>
+        </div>
+    </div> 
+    <h4>Payment Info:</h4>
+    <b>Esewa</b>: 9800971310
+    <br>
+    <b>Bank Name</b>:Siddhart Bank <br>
+    <b>Account Holder</b>:Matin Softech <br>
+    <b>Account No.</b>:00319681350
+</div>
+</body>
+
+</html>

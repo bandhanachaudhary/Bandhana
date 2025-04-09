@@ -1,0 +1,21 @@
+html, body {
+    background: #ffeead;
+    color: #ff6f69;
+}
+
+h1, p {
+    color: #ff6f69;
+}
+
+#navbar a {
+    color: #ff6f69;
+}
+
+.item {
+    background: #ffcc5c;
+}
+
+button {
+    background: #ff6f69;
+    color: #ffcc5c;
+}
